@@ -6,12 +6,12 @@
 ![Status](https://img.shields.io/badge/status-development-orange.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
-## 🌍 Contexte
+##  Contexte
 EDU-CI est une solution complète de gestion scolaire (SIS) adaptée aux spécificités du système éducatif ivoirien. Elle permet la digitalisation des processus administratifs et pédagogiques des établissements (primaires, collèges, lycées), tout en offrant une interface mobile aux parents et enseignants, avec un support complet du mode hors-ligne.
 
 **Note importante :** Ce système exclut volontairement toute gestion financière (paiements, facturation).
 
-## 🚀 Fonctionnalités Clés
+##  Fonctionnalités Clés
 
 - **Gestion Multi-Établissements** : Configuration centralisée par le Ministère (MENETFP) ou locale par les écoles.
 - **Vie Scolaire** : Saisie des présences, gestion des retards et sanctions.
@@ -20,7 +20,7 @@ EDU-CI est une solution complète de gestion scolaire (SIS) adaptée aux spécif
 - **Mode Hors-Ligne (Offline-First)** : Application mobile fonctionnelle sans internet pour la saisie (sync différée).
 - **Tableaux de Bord** : Indicateurs de performance (KPI) pour les chefs d'établissement et le Ministère.
 
-## 🛠 Architecture Technique
+##  Architecture Technique
 
 Le projet repose sur une architecture moderne et conteneurisée :
 
@@ -34,7 +34,7 @@ Le projet repose sur une architecture moderne et conteneurisée :
 | **Stockage** | [MinIO](https://min.io/) | Stockage objet compatible S3 (Documents, Photos) |
 | **Infra** | Docker | Conteneurisation de tous les services |
 
-## 📦 Installation & Démarrage
+##  Installation & Démarrage
 
 ### Prérequis
 - [Node.js](https://nodejs.org/) (v18 ou supérieur)
@@ -74,15 +74,15 @@ npm run dev
 ```
 L'application web sera accessible sur : `http://localhost:3001` (ou port indiqué)
 
-## 📚 Documentation
+##  Documentation
 La documentation détaillée des spécifications fonctionnelles et techniques est disponible dans le dossier `docs/` :
 - [Spécifications Complètes (SPECIFICATIONS.md)](docs/SPECIFICATIONS.md)
 
-## 🤝 Contribution
+##  Contribution
 Ce projet suit les standards de code suivants :
 - **Backend** : ESLint + Prettier (NestJS standard)
 - **Frontend** : ESLint + Prettier (Next.js standard)
 - **Commits** : Conventional Commits
 
-## 📄 Licence
+##  Licence
 Tous droits réservés. Usage interne ou sous licence uniquement.
